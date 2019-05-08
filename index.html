@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table</title>
+    <link rel="stylesheet" type="text/css"  href="./style.css" ></link>
+    
+</head>
+
+  <body>
+    <h1> Starwars Data</h1>
+    <input type="search" class="light-table-filter" data-table="order-table" placeholder="Filter">
+    <table id="myTable" class="order-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Rotation Period</th>
+          <th>Orbital Period</th>
+        </tr>
+      </thead>
+      <tbody id="tableData"></tbody>
+        
+    </table> 
+    <script src="tableJavascript.js"></script> 
+  </body>
+</html>
